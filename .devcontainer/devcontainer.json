@@ -1,0 +1,15 @@
+{
+  "name": "My Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/go:1.21",
+  "postCreateCommand": "go install github.com/bootdotdev/bootdev@latest",
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:${containerEnv:HOME}/go/bin"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}
