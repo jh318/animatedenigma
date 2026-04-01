@@ -1,2 +1,2 @@
 # animatedenigma
-codespace for projects
+Codespace that includes Go, Docker, Bootdev on creation.
